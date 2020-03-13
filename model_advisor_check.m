@@ -3,7 +3,7 @@ global modelName
 %RUN_CONFIGURATION Check systems with Model Advisor
 %   Check systems given as input and return number of warnings and failures
 load Pedal_data.mat
-%haha cd C:\Users\yangbo_91\Desktop\MBD\2020¼Æ»®\¹¤×÷\Ñî²©\MBDÓëjenkins½»»¥
+%cd C:\Users\yangbo_91\Desktop\MBD\2020¼Æ»®\¹¤×÷\Ñî²©\MBDÓëjenkins½»»¥
 modelName = 'pedal_req_02'
 TbTestSys = modelName; 
 Chk_fileName = 'model_advisor_checklist.mat';
